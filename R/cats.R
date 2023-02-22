@@ -6,7 +6,7 @@
 #' @return One of two possible character strings (`"I love cats!"` or `"I am not a cat person."`).
 #' @export
 #'
-#' @examples cat(TRUE)
+#' @examples cats(TRUE)
 cats <- function(love = TRUE) {
   if(love == TRUE) {
     msg <- "I love cats!"
